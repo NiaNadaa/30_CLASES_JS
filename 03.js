@@ -1,6 +1,6 @@
 class Rectangulo{
     constructor(largo, ancho){
-        this.largo = largo
+        this.largo = largo,
         this.ancho = ancho
     }
 
@@ -15,5 +15,10 @@ class Rectangulo{
     }
 }
 
-calArea(12,4)
-calPerimetro(12,4)
+let calculo = new Rectangulo(12,4)
+
+console.log(calculo.calArea())
+console.log(calculo.calPerimetro())
+
+/* calArea(12,4)
+calPerimetro(12,4) */
