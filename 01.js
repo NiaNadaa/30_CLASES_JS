@@ -16,6 +16,6 @@ class Cifras{
         console.log(`La suma es ${suma}`)
     }
 }
+let num = new Cifras("345")
 
-esPar(181)
-sumaDigitos(181)
+console.log(num.esPar(), num.sumaDigitos())
