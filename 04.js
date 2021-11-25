@@ -15,5 +15,9 @@ class Finanzas{
     }
 }
 
-dolarEuro(23)
-euroDolar(345)
+let calculo = new Finanzas(300,456)
+console.log(calculo.dolarEuro())
+console.log(calculo.euroDolar())
+
+/* dolarEuro(23)
+euroDolar(345) */
