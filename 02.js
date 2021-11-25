@@ -1,19 +1,21 @@
 class Distancia{
-    constructor(num){
+   /*  constructor(num){
         this.num=num
-    }
+    } */
 
     
-    millasAmetros(){
-        let met = this.num*1609.34
+    millasAmetros(num){
+        let met = num*1609.34
         console.log(`Son ${met} metros`)
     }
 
     millasAkilometros(){
-        let km = (this.num*1609.34)/1000
+        let km = (num*1609.34)/1000
         console.log(`Son ${km} kilómetros`)
     }
 }
 
-millasAmetros(1232)
-millasAkilometros(1232)
+let calculo = new Distancia()
+
+console.log(calculo.millasAmetros(234))
+console.log(calculo.millasAkilometros(1800))
